@@ -1,11 +1,12 @@
 # vim: set ft=python:
 
-from psutil import sensors_battery
+#from psutil import sensors_battery
 
 clip = video_in
 
 
-if sensors_battery().power_plugged:
+#if sensors_battery().power_plugged:
+if True:
 
     import vapoursynth as vs
     core = vs.core
